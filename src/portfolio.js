@@ -9,7 +9,7 @@ const greeting = {
   /* Your Summary And Greeting Section */
   username: "Kevin Lin",
   title: "Kevin Lin",
-  subTitle: emoji("I'm a Computer Science BSE student at Princeton seeking new-grad full time Software Engineering role! I'm fluent in Java (OOP/Bazel/IntelliJ), Javascript (React/Typescript/Redux), Python, MongoDB MQL, OCAML, etc."),
+  subTitle: emoji("Computer Science student at Princeton seeking new-grad full time Software Engineering role! I'm fluent in Java (OOP/Bazel/IntelliJ), Javascript (React/Typescript/Redux), Python, MongoDB MQL, OCAML, etc."),
   resumeLink: "https://docs.google.com/document/d/15mzCiRitKmZJeEiUBV4XfXPe7A2ZN57hgxSKhs1QQlU/edit?usp=sharing"
 };
 
@@ -119,6 +119,18 @@ const techStack = {
 const workExperiences = {
   viewExperiences: true, //Set it to true to show workExperiences Section
   experience: [
+    {
+      role: "Software Engineer Intern, Full Stack",  
+      company: "MongoDB",
+      companylogo: require("./assets/images/mdb.png"),
+      date: "June 2021 – August 2021",
+      desc: "Built cloud billing visualizations for Atlas. Implemented Java/Bazel backend using OOP, data aggregations with MorphiaCursor, unit/integration testing. Wrote and tested billing data-aggregation API endpoints using Jersey/Jetty frameworks, Digest Authentication. Integrated backend with React/Typescript/Redux front-end; dynamically generated data using MQL and MongoDB shell; integrated code with Evergreen CI/CD pipeline. Configured stacked-bar-chart interactive visualizations with color-coded cost-breakdown by Atlas features, deployments, and projects (using Vega-D3, LESS/CSS); validated correctness of conditional rendering on billing overview page (with Jest mock testing); added Segment-tracking for user-interaction analysis",
+      descBullets: [
+        "Cloud Billing Platform",
+        "Java, React/Typescript, MQL, Vega-D3",
+        "@NYC, New York"
+      ]
+    },
     {
       role: "Software Engineer Intern, Full Stack",  
       company: "Fusion Systems",
