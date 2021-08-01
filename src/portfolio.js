@@ -145,12 +145,12 @@ const workExperiences = {
     },
     {
       role: "Full Stack Technical Lead, Back-End Developer",   
-      company: "TigerMatch, Tigerbook",
+      company: "TigerMatch",
       companylogo: require("./assets/images/ppt.jpg"),
       date: "September 2020 – Present",
-      desc: "Tigermatch: Princeton CAS-Authenticated webapp for student dating/relationships. Tigerbook: student directory, developed web-scrapers/integrated new features, maintained legacy codebase.",
+      desc: "Tigermatch: Princeton CAS-Authenticated webapp for student dating/relationships.",
       descBullets: [
-        "Web Scraping",
+        "Python Flask, SQL Alchemy, Bootstrap/CSS",
         "Princeton OIT API",
         "CAS Authentication",
         "@Princeton, NJ"
