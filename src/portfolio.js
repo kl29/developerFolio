@@ -122,7 +122,7 @@ const workExperiences = {
     {
       role: "Software Engineer Intern, Full Stack",  
       company: "MongoDB",
-      companylogo: require("./assets/images/mdb.png"),
+      companylogo: require("./assets/images/mdb2.png"),
       date: "June 2021 – August 2021",
       desc: "Built cloud billing visualizations for Atlas. Implemented Java/Bazel backend using OOP, data aggregations with MorphiaCursor, unit/integration testing. Wrote and tested billing data-aggregation API endpoints using Jersey/Jetty frameworks, Digest Authentication. Integrated backend with React/Typescript/Redux front-end; dynamically generated data using MQL and MongoDB shell; integrated code with Evergreen CI/CD pipeline. Configured stacked-bar-chart interactive visualizations with color-coded cost-breakdown by Atlas features, deployments, and projects (using Vega-D3, LESS/CSS); validated correctness of conditional rendering on billing overview page (with Jest mock testing); added Segment-tracking for user-interaction analysis",
       descBullets: [
@@ -243,7 +243,7 @@ const achievementSection = {
       subtitle: "Lead Boy Scout Troop 404 as Senior Patrol Leader, lead community renovation service project",
       image: require("./assets/images/ea.png"),
       footerLink: [
-        { name: "Eagle Scout", url: "https://www.scouting.org/resources/guide-to-advancement/eagle-scout-rank/"},
+        { name: "Eagle Scout", url: "https://en.wikipedia.org/wiki/Eagle_Scout_(Boy_Scouts_of_America)"},
       ]
     },
     {
@@ -314,8 +314,7 @@ const podcastSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle: "Seeking Software Engineering Internship (Summer 2021)",
-  number: "linkedin.com/in/kevin-lin-7386ab177/",
+  subtitle: "Seeking new-grad full-time Software Engineering role (graduating May 2022)",
   email_address: "kl29@princeton.edu"
 };
 
